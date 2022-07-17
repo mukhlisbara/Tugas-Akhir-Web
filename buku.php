@@ -188,7 +188,7 @@ if(isset($_POST['submit']))
 			$max_results = 10;
 			$from = (($page * $max_results) - $max_results);
 			
-			$sql = "SELECT * FROM t_buku` ";
+			$sql = "SELECT * FROM t_buku ";
 			$result = mysqli_query($db,$sql);
 			$jum_data = mysqli_num_rows($result);
 			
